@@ -1,4 +1,4 @@
-# ChromaPlotter
+# ChromaPlot
 Chromaticity Diagram Plotter for LaTex
 
 Previous attempts:
