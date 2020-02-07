@@ -1,0 +1,26 @@
+\ProvidesPackage{header_msc_main}
+
+\setkomafont{disposition}{\normalfont\bfseries} %Regular TeX font
+\renewcommand*{\partformat}{}%No "Part 1." before part
+\setlength\parindent{0pt} %No indents in document
+\setkomafont{part}{} %Centers part heading
+\let\raggedpart\centering %Centers part heading
+
+%%%%%%%%%%% CHARACTERS AND LANGUAGE
+\usepackage[UKenglish]{babel}
+\usepackage[utf8]{inputenc}
+
+%%%%%%%%%%% TYPESETTING
+\usepackage{lipsum} %For generating placeholder text
+\usepackage{hyperref} %For interactive links in pdf
+\usepackage{pdfpages} %For embedding entire pdf documents
+%\usepackage[obeyspaces]{url} %For typesetting path names
+\usepackage{listings} %For typesetting code snippets
+
+%%%%%%%%%%% MARKUP
+\usepackage{comment} %For multiline comments
+
+%%%%%%%%%%% TABLES
+\usepackage{tabularx} %For better tables
+\usepackage{booktabs} %For even better tables without vertical lines
+\usepackage{makecell} %For multi-lined cells

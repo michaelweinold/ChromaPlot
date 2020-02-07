@@ -1,0 +1,26 @@
+\documentclass[11pt]{scrbook}
+
+% Must be loaded before subfiles package
+\usepackage{../supplementary/header/header_chromaplot_main}
+\usepackage{../supplementary/header/header_chromaplot_plotting}
+\usepackage{../supplementary/header/header_chromaplot_supplementary}
+\usepackage{../glossary/header_chromaplot_glossary}
+
+\usepackage{subfiles} % https://ctan.org/pkg/subfiles
+
+% Must be loaded after subfiles package
+\usepackage{../bibliography/header_chromaplot_bibliography}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Test
+
+\end{comment}
+
+\subfile{../glossary/glossary}
+
+\printbibliography
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+\end{document}
